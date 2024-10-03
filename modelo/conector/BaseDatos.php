@@ -20,8 +20,8 @@ class BaseDatos extends PDO {
         $this->engine = 'mysql';
         $this->host = 'localhost';
         $this->database = 'pwd_tigredb';
-        $this->user = 'root';
-        $this->pass = '';
+        $this->user = 'malapi';
+        $this->pass = '123456';
         $this->debug = true;
         $this->error ="";
         $this->sql ="";
